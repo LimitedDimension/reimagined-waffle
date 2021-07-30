@@ -1,0 +1,15 @@
+.ad-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .ad-list-wrapper {
+        flex: 1;
+        padding: 10px 0 10px 0;
+        max-width: 1200px;
+
+        table {
+            width: 100%;
+        }
+    }
+}

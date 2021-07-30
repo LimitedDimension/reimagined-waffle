@@ -1,0 +1,44 @@
+.ad-list-item-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .ad-list-item-form-wrapper {
+        flex: 1;
+        padding: 10px 0 10px 0;
+        max-width: 1200px;
+
+        .ad-list-item-form-card {
+            padding: 20px;
+        }
+
+        .ad-list-item-form-title-block {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .ad-list-item-form-settings-block {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .ad-list-item-form-images {
+            padding: 10px;
+        }
+
+        .ad-list-item-form-controls {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+    }
+
+    table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

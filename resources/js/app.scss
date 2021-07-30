@@ -1,0 +1,24 @@
+// AdList component styles
+@import 'components/AdList/adList';
+
+// ImageSelector component styles
+@import 'components/ImagesSelector/imageSelector';
+
+// ImageSelectorItem component styles
+@import 'components/ImagesSelectorItem/imageSelectorItem';
+
+// AdListItemForm component styles
+@import 'components/AdListItemForm/adListItemForm';
+
+// AdListItemDateInput component styles
+@import 'components/AdListItemDateInput/adListItemDateInput';
+
+// AdListItemUsdInput component styles
+@import 'components/AdListItemUsdInput/adListItemUsdInput';
+
+// AdPreview component styles
+@import 'components/AdPreview/adPreview';
+
+* {
+    font-family: Roboto;
+}

@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+.ad-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ad-list .ad-list-wrapper {
+  flex: 1;
+  padding: 10px 0 10px 0;
+  max-width: 1200px;
+}
+.ad-list .ad-list-wrapper table {
+  width: 100%;
+}
+
+.images-selector .images-selector-controls {
+  padding: 10px;
+}
+.images-selector .images-selector-content {
+  text-align: center;
+}
+
+.images-selector-item {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+}
+.images-selector-item img {
+  width: 100%;
+  height: auto;
+}
+.images-selector-item .images-selector-item-controls {
+  position: absolute;
+  z-index: 1100;
+  top: 10px;
+  right: 10px;
+}
+
+.ad-list-item-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ad-list-item-form .ad-list-item-form-wrapper {
+  flex: 1;
+  padding: 10px 0 10px 0;
+  max-width: 1200px;
+}
+.ad-list-item-form .ad-list-item-form-wrapper .ad-list-item-form-card {
+  padding: 20px;
+}
+.ad-list-item-form .ad-list-item-form-wrapper .ad-list-item-form-title-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.ad-list-item-form .ad-list-item-form-wrapper .ad-list-item-form-settings-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.ad-list-item-form .ad-list-item-form-wrapper .ad-list-item-form-images {
+  padding: 10px;
+}
+.ad-list-item-form .ad-list-item-form-wrapper .ad-list-item-form-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.ad-list-item-form table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ad-list-item-date-selector .ad-list-item-date-selector-date-start,
+.ad-list-item-date-selector .ad-list-item-date-selector-date-end {
+  margin-top: 15px;
+}
+
+.ad-list-item-usd-input .ad-list-item-usd-input-usd-total-block {
+  margin-top: 15px;
+}
+
+.ad-preview {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 900px;
+  background-color: white;
+  border: solid 1px silver;
+  padding: 20px;
+  margin-top: 20px;
+}
+.ad-preview .top-controls {
+  text-align: right;
+}
+
+* {
+  font-family: Roboto;
+}

@@ -1,0 +1,15 @@
+.ad-preview {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+    background-color: white;
+    border: solid 1px silver;
+    padding: 20px;
+    margin-top: 20px;
+
+    .top-controls {
+        text-align: right;
+    }
+}
